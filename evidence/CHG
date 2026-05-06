@@ -1,0 +1,2 @@
+/etc/ssh/sshd_config:Banner /etc/issue.net 
+/etc/ssh/sshd_config:Banner /etc/issue.net 

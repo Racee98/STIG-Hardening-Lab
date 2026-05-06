@@ -2,9 +2,8 @@
 
 | Change ID | System          | STIG ID        | Description | Risk | Approved | Status | Date |
 |-----------|-----------------|----------------|-------------|------|----------|--------|------|
-| CHG-001   | Ubuntu-STIG-LAB | UBTU-22-255010 |Disable root ssh login| Low  | yes | Complete  |05/06/2026 |
-|-----------|-----------------|----------------|-------------|------|----------|--------|------|
-  CHG-002   |  Ubuntu-STIG-LAB|	UBTU-22-271015 | Setting banner message| yes| Medium | 05/06/2026
+| CHG-001   | Ubuntu-STIG-LAB | UBTU-22-255010 |Disable root ssh login| Low  | yes | Complete  |05/06/2026 |     
+  CHG-002   |  Ubuntu-STIG-LAB|	UBTU-22-271015 | Setting banner message| Medium| yes |complete | 05/06/2026
 |-----------|-----------------|----------------|-------------|------|----------|--------|------|
 
 |-----------|-----------------|----------------|-------------|------|----------|--------|------|

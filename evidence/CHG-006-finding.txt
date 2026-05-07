@@ -1,0 +1,24 @@
+● auditd.service - Security Auditing Service
+     Loaded: loaded (/lib/systemd/system/auditd.service; enabled; vendor preset: enabled)
+     Active: active (running) since Thu 2026-05-07 03:35:23 UTC; 2min 23s ago
+       Docs: man:auditd(8)
+             https://github.com/linux-audit/audit-documentation
+    Process: 2016 ExecStart=/sbin/auditd (code=exited, status=0/SUCCESS)
+    Process: 2023 ExecStartPost=/sbin/augenrules --load (code=exited, status=0/SUCCESS)
+   Main PID: 2020 (auditd)
+      Tasks: 2 (limit: 2219)
+     Memory: 2.2M
+        CPU: 234ms
+     CGroup: /system.slice/auditd.service
+             └─2020 /sbin/auditd
+
+May 07 03:35:23 stig-lab augenrules[2034]: enabled 1
+May 07 03:35:23 stig-lab augenrules[2034]: failure 1
+May 07 03:35:23 stig-lab augenrules[2034]: pid 2020
+May 07 03:35:23 stig-lab augenrules[2034]: rate_limit 0
+May 07 03:35:23 stig-lab augenrules[2034]: backlog_limit 8192
+May 07 03:35:23 stig-lab augenrules[2034]: lost 0
+May 07 03:35:23 stig-lab augenrules[2034]: backlog 4
+May 07 03:35:23 stig-lab augenrules[2034]: backlog_wait_time 60000
+May 07 03:35:23 stig-lab augenrules[2034]: backlog_wait_time_actual 0
+May 07 03:35:23 stig-lab systemd[1]: Started Security Auditing Service.

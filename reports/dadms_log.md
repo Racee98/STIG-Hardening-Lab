@@ -8,8 +8,8 @@
 | CHG-004   | Ubuntu-STIG-LAB| UBTU-22-611025  | Enforce passwprd complexity| Low | Yes | Complete | 05/06/2026|
 |CHG-005    | Ubuntu-STIG-LAB| UBTU-22-011010  | Configure System Login Banner | Low | Yes | Complete | 05/06/2026 |
 |CHG-006    | Ubuntu-STIG-LAB| UBTU-22-651010  |Enable and start auditd| low | Yes  | complete | 05/06/2026  |
-|CHG-007    | Ubuntu -STIG-LAB| UBTU-22-411010 | Set max password | low | Yes | Complete | 05/06/2026 
-|-----------|-----------------|----------------|-------------|------|----------|--------|------|
+|CHG-007    | Ubuntu-STIG-LAB| UBTU-22-411010 | Set max password | low | Yes | Complete | 05/06/2026 
+|CHG-008    | Ubuntu-STIG-LAB| UBTU-22-412025 | Configure timeout session| low | yes | Complete | 05/06/2026 |
 
 |-----------|-----------------|----------------|-------------|------|----------|--------|------|
 
